@@ -259,16 +259,14 @@ button.remove-btn:hover {
   font-weight: 400;
 }
 
-/* .editBtnDisabled {
-  pointer-events: none;
-  opacity: 0.5;
-  cursor: default;
-} */
-
 @media (max-width: 500px) {
   .task-container {
     flex-direction: column;
     gap: 10px;
+  }
+
+  .btnContainer {
+    flex-direction: column;
   }
 
   #right {
